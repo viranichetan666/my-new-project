@@ -1,9 +1,1 @@
-name: Deploy
-on: push
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Run script
-        run: echo Hello, world!
+yuyu
