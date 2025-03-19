@@ -1,1 +1,6 @@
-rtrt
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Step
+        run: echo 'Running tests'
